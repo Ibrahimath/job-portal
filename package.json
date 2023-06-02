@@ -1,0 +1,34 @@
+{
+  "name": "job-portal",
+  "version": "1.0.0",
+  "description": "job portal parole",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ZULFAHGROUP/job-portal.git"
+  },
+  "author": "zeeDev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ZULFAHGROUP/job-portal/issues"
+  },
+  "homepage": "https://github.com/ZULFAHGROUP/job-portal#readme",
+  "dependencies": {
+    "@sendgrid/mail": "^7.7.0",
+    "axios": "^1.4.0",
+    "bcrypt": "^5.1.0",
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "joi": "^17.9.2",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
